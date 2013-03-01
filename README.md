@@ -3,7 +3,7 @@ Secret Lab iOS Workshop
 
 This repository contains the code for the exercises done during the Secret Lab iOS Workshop.
 
-License
+##License
 
 All code in this repository from Secret Lab is licensed under the MIT license.
 
