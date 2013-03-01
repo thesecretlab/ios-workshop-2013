@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQY-W2-5kG">
+                                <color key="backgroundColor" red="0.04727923799" green="1" blue="0.00060984911910000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" type="user" id="7t7-EU-xLs"/>
+                                    <constraint firstAttribute="width" constant="164" type="user" id="Naw-Ve-a6C"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iQY-W2-5kG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="78" type="user" id="413-mc-1Rj"/>
+                            <constraint firstItem="iQY-W2-5kG" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="user" id="Txg-xe-iAV"/>
+                            <constraint firstAttribute="bottom" secondItem="iQY-W2-5kG" secondAttribute="bottom" constant="292" type="user" id="lrW-RV-XN3"/>
+                            <constraint firstItem="iQY-W2-5kG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="109" type="user" id="w7l-pd-Tt2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="motionView" destination="iQY-W2-5kG" id="NrI-gH-f6l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-xP-uCz">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Run Simple Animation">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runSimpleAnimation:" destination="2" eventType="touchUpInside" id="eD6-gW-pyq"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9z-bM-b5M">
+                                <color key="backgroundColor" red="1" green="0.15169343796044854" blue="0.14068997139533401" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54w-GN-9Aj" customClass="TappableAnimatedView">
+                                <color key="backgroundColor" red="0.047279237990552558" green="1" blue="0.00060984911907746575" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V24-2f-vIq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="Tfv-kz-Jg6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Run Keyframe Animation">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runKeyframeAnimation:" destination="2" eventType="touchUpInside" id="lQZ-9I-baK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="54w-GN-9Aj" secondAttribute="trailing" constant="249" id="33x-7Q-Cxh"/>
+                            <constraint firstAttribute="trailing" secondItem="g9z-bM-b5M" secondAttribute="trailing" constant="104" id="7pr-zy-BRl"/>
+                            <constraint firstItem="V24-2f-vIq" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="XfF-ZQ-yRP"/>
+                            <constraint firstItem="54w-GN-9Aj" firstAttribute="top" secondItem="3" secondAttribute="top" constant="14" id="ZWI-zj-Yi0"/>
+                            <constraint firstItem="g9z-bM-b5M" firstAttribute="top" secondItem="3" secondAttribute="top" constant="200" id="gDu-gF-Vg0"/>
+                            <constraint firstItem="3Ou-xP-uCz" firstAttribute="top" secondItem="V24-2f-vIq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="i8D-NU-hO8"/>
+                            <constraint firstItem="54w-GN-9Aj" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="13" id="iJ1-DE-8ZO"/>
+                            <constraint firstItem="g9z-bM-b5M" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="87" id="mke-2g-KVG"/>
+                            <constraint firstAttribute="bottom" secondItem="g9z-bM-b5M" secondAttribute="bottom" constant="219" id="nsw-Ms-V5p"/>
+                            <constraint firstAttribute="bottom" secondItem="54w-GN-9Aj" secondAttribute="bottom" constant="391" id="nuK-f8-AxK"/>
+                            <constraint firstItem="V24-2f-vIq" firstAttribute="top" secondItem="3" secondAttribute="top" constant="74" id="xTV-7k-2Z4"/>
+                            <constraint firstItem="V24-2f-vIq" firstAttribute="centerX" secondItem="3Ou-xP-uCz" secondAttribute="centerX" type="default" id="yoK-VZ-HN0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="keyframeAnimatedView" destination="54w-GN-9Aj" id="lw8-PM-QgW"/>
+                        <outlet property="rotatingView" destination="g9z-bM-b5M" id="eDG-nt-LBB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-37" y="5"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TappableAnimatedView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TappableAnimatedView.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="runKeyframeAnimation:"/>
+                <relationship kind="action" name="runSimpleAnimation:"/>
+                <relationship kind="outlet" name="keyframeAnimatedView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="rotatingView" candidateClass="UIView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

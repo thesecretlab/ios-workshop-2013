@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689D5FCE16D83A170007B521 /* FlagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689D5FCD16D83A170007B521 /* FlagViewController.m */; };
+		68F789DA16D72C4100C0C220 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F789D916D72C4100C0C220 /* UIKit.framework */; };
+		68F789DC16D72C4100C0C220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F789DB16D72C4100C0C220 /* Foundation.framework */; };
+		68F789DE16D72C4100C0C220 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F789DD16D72C4100C0C220 /* CoreGraphics.framework */; };
+		68F789E416D72C4100C0C220 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68F789E216D72C4100C0C220 /* InfoPlist.strings */; };
+		68F789E616D72C4100C0C220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F789E516D72C4100C0C220 /* main.m */; };
+		68F789EA16D72C4100C0C220 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F789E916D72C4100C0C220 /* AppDelegate.m */; };
+		68F789EC16D72C4100C0C220 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F789EB16D72C4100C0C220 /* Default.png */; };
+		68F789EE16D72C4100C0C220 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F789ED16D72C4100C0C220 /* Default@2x.png */; };
+		68F789F016D72C4100C0C220 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F789EF16D72C4100C0C220 /* Default-568h@2x.png */; };
+		68F789F316D72C4100C0C220 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F789F116D72C4100C0C220 /* MainStoryboard_iPhone.storyboard */; };
+		68F789F616D72C4100C0C220 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F789F416D72C4100C0C220 /* MainStoryboard_iPad.storyboard */; };
+		68F789F916D72C4100C0C220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F789F816D72C4100C0C220 /* ViewController.m */; };
+		68F78A1016D72D8000C0C220 /* afhganistan.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0016D72D8000C0C220 /* afhganistan.png */; };
+		68F78A1116D72D8000C0C220 /* albania.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0116D72D8000C0C220 /* albania.png */; };
+		68F78A1216D72D8000C0C220 /* algeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0216D72D8000C0C220 /* algeria.png */; };
+		68F78A1316D72D8000C0C220 /* andorra.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0316D72D8000C0C220 /* andorra.png */; };
+		68F78A1416D72D8000C0C220 /* angola.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0416D72D8000C0C220 /* angola.png */; };
+		68F78A1516D72D8000C0C220 /* antigua-and-barbuda.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0516D72D8000C0C220 /* antigua-and-barbuda.png */; };
+		68F78A1616D72D8000C0C220 /* argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0616D72D8000C0C220 /* argentina.png */; };
+		68F78A1716D72D8000C0C220 /* armenia.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0716D72D8000C0C220 /* armenia.png */; };
+		68F78A1816D72D8000C0C220 /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0816D72D8000C0C220 /* australia.png */; };
+		68F78A1916D72D8000C0C220 /* austria.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0916D72D8000C0C220 /* austria.png */; };
+		68F78A1A16D72D8000C0C220 /* azerbaijan.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0A16D72D8000C0C220 /* azerbaijan.png */; };
+		68F78A1B16D72D8000C0C220 /* bahamas.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0B16D72D8000C0C220 /* bahamas.png */; };
+		68F78A1C16D72D8000C0C220 /* bahrain.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0C16D72D8000C0C220 /* bahrain.png */; };
+		68F78A1D16D72D8000C0C220 /* bangladesh.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0D16D72D8000C0C220 /* bangladesh.png */; };
+		68F78A1E16D72D8000C0C220 /* barbados.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0E16D72D8000C0C220 /* barbados.png */; };
+		68F78A1F16D72D8000C0C220 /* belarus.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F78A0F16D72D8000C0C220 /* belarus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		689D5FCC16D83A170007B521 /* FlagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagViewController.h; sourceTree = "<group>"; };
+		689D5FCD16D83A170007B521 /* FlagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagViewController.m; sourceTree = "<group>"; };
+		68F789D616D72C4100C0C220 /* Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F789D916D72C4100C0C220 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68F789DB16D72C4100C0C220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68F789DD16D72C4100C0C220 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68F789E116D72C4100C0C220 /* Flags-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flags-Info.plist"; sourceTree = "<group>"; };
+		68F789E316D72C4100C0C220 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68F789E516D72C4100C0C220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68F789E716D72C4100C0C220 /* Flags-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flags-Prefix.pch"; sourceTree = "<group>"; };
+		68F789E816D72C4100C0C220 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68F789E916D72C4100C0C220 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68F789EB16D72C4100C0C220 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		68F789ED16D72C4100C0C220 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		68F789EF16D72C4100C0C220 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		68F789F216D72C4100C0C220 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		68F789F516D72C4100C0C220 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		68F789F716D72C4100C0C220 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68F789F816D72C4100C0C220 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68F78A0016D72D8000C0C220 /* afhganistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afhganistan.png; sourceTree = "<group>"; };
+		68F78A0116D72D8000C0C220 /* albania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albania.png; sourceTree = "<group>"; };
+		68F78A0216D72D8000C0C220 /* algeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = algeria.png; sourceTree = "<group>"; };
+		68F78A0316D72D8000C0C220 /* andorra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = andorra.png; sourceTree = "<group>"; };
+		68F78A0416D72D8000C0C220 /* angola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angola.png; sourceTree = "<group>"; };
+		68F78A0516D72D8000C0C220 /* antigua-and-barbuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "antigua-and-barbuda.png"; sourceTree = "<group>"; };
+		68F78A0616D72D8000C0C220 /* argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argentina.png; sourceTree = "<group>"; };
+		68F78A0716D72D8000C0C220 /* armenia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = armenia.png; sourceTree = "<group>"; };
+		68F78A0816D72D8000C0C220 /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
+		68F78A0916D72D8000C0C220 /* austria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = austria.png; sourceTree = "<group>"; };
+		68F78A0A16D72D8000C0C220 /* azerbaijan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azerbaijan.png; sourceTree = "<group>"; };
+		68F78A0B16D72D8000C0C220 /* bahamas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahamas.png; sourceTree = "<group>"; };
+		68F78A0C16D72D8000C0C220 /* bahrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahrain.png; sourceTree = "<group>"; };
+		68F78A0D16D72D8000C0C220 /* bangladesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangladesh.png; sourceTree = "<group>"; };
+		68F78A0E16D72D8000C0C220 /* barbados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbados.png; sourceTree = "<group>"; };
+		68F78A0F16D72D8000C0C220 /* belarus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = belarus.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F789D316D72C4100C0C220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F789DA16D72C4100C0C220 /* UIKit.framework in Frameworks */,
+				68F789DC16D72C4100C0C220 /* Foundation.framework in Frameworks */,
+				68F789DE16D72C4100C0C220 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F789CD16D72C4100C0C220 = {
+			isa = PBXGroup;
+			children = (
+				68F789DF16D72C4100C0C220 /* Flags */,
+				68F789D816D72C4100C0C220 /* Frameworks */,
+				68F789D716D72C4100C0C220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F789D716D72C4100C0C220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F789D616D72C4100C0C220 /* Flags.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F789D816D72C4100C0C220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F789D916D72C4100C0C220 /* UIKit.framework */,
+				68F789DB16D72C4100C0C220 /* Foundation.framework */,
+				68F789DD16D72C4100C0C220 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F789DF16D72C4100C0C220 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				68F789FF16D72D8000C0C220 /* Flags */,
+				68F789E816D72C4100C0C220 /* AppDelegate.h */,
+				68F789E916D72C4100C0C220 /* AppDelegate.m */,
+				68F789F116D72C4100C0C220 /* MainStoryboard_iPhone.storyboard */,
+				689D5FCC16D83A170007B521 /* FlagViewController.h */,
+				689D5FCD16D83A170007B521 /* FlagViewController.m */,
+				68F789F416D72C4100C0C220 /* MainStoryboard_iPad.storyboard */,
+				68F789F716D72C4100C0C220 /* ViewController.h */,
+				68F789F816D72C4100C0C220 /* ViewController.m */,
+				68F789E016D72C4100C0C220 /* Supporting Files */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
+		68F789E016D72C4100C0C220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F789E116D72C4100C0C220 /* Flags-Info.plist */,
+				68F789E216D72C4100C0C220 /* InfoPlist.strings */,
+				68F789E516D72C4100C0C220 /* main.m */,
+				68F789E716D72C4100C0C220 /* Flags-Prefix.pch */,
+				68F789EB16D72C4100C0C220 /* Default.png */,
+				68F789ED16D72C4100C0C220 /* Default@2x.png */,
+				68F789EF16D72C4100C0C220 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68F789FF16D72D8000C0C220 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				68F78A0016D72D8000C0C220 /* afhganistan.png */,
+				68F78A0116D72D8000C0C220 /* albania.png */,
+				68F78A0216D72D8000C0C220 /* algeria.png */,
+				68F78A0316D72D8000C0C220 /* andorra.png */,
+				68F78A0416D72D8000C0C220 /* angola.png */,
+				68F78A0516D72D8000C0C220 /* antigua-and-barbuda.png */,
+				68F78A0616D72D8000C0C220 /* argentina.png */,
+				68F78A0716D72D8000C0C220 /* armenia.png */,
+				68F78A0816D72D8000C0C220 /* australia.png */,
+				68F78A0916D72D8000C0C220 /* austria.png */,
+				68F78A0A16D72D8000C0C220 /* azerbaijan.png */,
+				68F78A0B16D72D8000C0C220 /* bahamas.png */,
+				68F78A0C16D72D8000C0C220 /* bahrain.png */,
+				68F78A0D16D72D8000C0C220 /* bangladesh.png */,
+				68F78A0E16D72D8000C0C220 /* barbados.png */,
+				68F78A0F16D72D8000C0C220 /* belarus.png */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F789D516D72C4100C0C220 /* Flags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F789FC16D72C4100C0C220 /* Build configuration list for PBXNativeTarget "Flags" */;
+			buildPhases = (
+				68F789D216D72C4100C0C220 /* Sources */,
+				68F789D316D72C4100C0C220 /* Frameworks */,
+				68F789D416D72C4100C0C220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flags;
+			productName = Flags;
+			productReference = 68F789D616D72C4100C0C220 /* Flags.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F789CE16D72C4100C0C220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 68F789D116D72C4100C0C220 /* Build configuration list for PBXProject "Flags" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68F789CD16D72C4100C0C220;
+			productRefGroup = 68F789D716D72C4100C0C220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F789D516D72C4100C0C220 /* Flags */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68F789D416D72C4100C0C220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F789E416D72C4100C0C220 /* InfoPlist.strings in Resources */,
+				68F789EC16D72C4100C0C220 /* Default.png in Resources */,
+				68F789EE16D72C4100C0C220 /* Default@2x.png in Resources */,
+				68F789F016D72C4100C0C220 /* Default-568h@2x.png in Resources */,
+				68F789F316D72C4100C0C220 /* MainStoryboard_iPhone.storyboard in Resources */,
+				68F789F616D72C4100C0C220 /* MainStoryboard_iPad.storyboard in Resources */,
+				68F78A1016D72D8000C0C220 /* afhganistan.png in Resources */,
+				68F78A1116D72D8000C0C220 /* albania.png in Resources */,
+				68F78A1216D72D8000C0C220 /* algeria.png in Resources */,
+				68F78A1316D72D8000C0C220 /* andorra.png in Resources */,
+				68F78A1416D72D8000C0C220 /* angola.png in Resources */,
+				68F78A1516D72D8000C0C220 /* antigua-and-barbuda.png in Resources */,
+				68F78A1616D72D8000C0C220 /* argentina.png in Resources */,
+				68F78A1716D72D8000C0C220 /* armenia.png in Resources */,
+				68F78A1816D72D8000C0C220 /* australia.png in Resources */,
+				68F78A1916D72D8000C0C220 /* austria.png in Resources */,
+				68F78A1A16D72D8000C0C220 /* azerbaijan.png in Resources */,
+				68F78A1B16D72D8000C0C220 /* bahamas.png in Resources */,
+				68F78A1C16D72D8000C0C220 /* bahrain.png in Resources */,
+				68F78A1D16D72D8000C0C220 /* bangladesh.png in Resources */,
+				68F78A1E16D72D8000C0C220 /* barbados.png in Resources */,
+				68F78A1F16D72D8000C0C220 /* belarus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F789D216D72C4100C0C220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F789E616D72C4100C0C220 /* main.m in Sources */,
+				68F789EA16D72C4100C0C220 /* AppDelegate.m in Sources */,
+				68F789F916D72C4100C0C220 /* ViewController.m in Sources */,
+				689D5FCE16D83A170007B521 /* FlagViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68F789E216D72C4100C0C220 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F789E316D72C4100C0C220 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68F789F116D72C4100C0C220 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F789F216D72C4100C0C220 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		68F789F416D72C4100C0C220 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F789F516D72C4100C0C220 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68F789FA16D72C4100C0C220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68F789FB16D72C4100C0C220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F789FD16D72C4100C0C220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flags/Flags-Prefix.pch";
+				INFOPLIST_FILE = "Flags/Flags-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68F789FE16D72C4100C0C220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flags/Flags-Prefix.pch";
+				INFOPLIST_FILE = "Flags/Flags-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F789D116D72C4100C0C220 /* Build configuration list for PBXProject "Flags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F789FA16D72C4100C0C220 /* Debug */,
+				68F789FB16D72C4100C0C220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F789FC16D72C4100C0C220 /* Build configuration list for PBXNativeTarget "Flags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F789FD16D72C4100C0C220 /* Debug */,
+				68F789FE16D72C4100C0C220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F789CE16D72C4100C0C220 /* Project object */;
+}
