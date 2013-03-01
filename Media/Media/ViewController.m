@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import <AVFoundation/AVFoundation.h>
-#import "AFNetworking.h"
 
 @interface ViewController () {
     MPMoviePlayerController* _movieController;
@@ -36,38 +35,6 @@
     
     [_movieController play];
     
-    AFHTTPClient* client = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"https://alpha-api.app.net/"]];
-    
-    [client getPath:@"stream/0/posts/stream/global"parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
-        NSLog(@"We got the feed!");
-        
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
-        NSLog(@"We didn't get the feed, forever tears");
-        
-    }];
-    
-    NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://placekitten.com/600/300"]];
-    
-    AFImageRequestOperation* imageRequest = [[AFImageRequestOperation alloc] initWithRequest:request];
-    
-    [[AFNetworkActivityIndicatorManager sharedManager] incrementActivityCount];
-    
-    NSLocalizedString(@"login success", @"");
-    
-    [imageRequest setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
-        UIImage* image = responseObject;
-        NSLog(@"The adorable kitten is %f x %f in size", image.size.width, image.size.height);
-        
-        [[AFNetworkActivityIndicatorManager sharedManager] decrementActivityCount];
-        
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
-    }];
-    
-    [imageRequest start];
     
 }
 
